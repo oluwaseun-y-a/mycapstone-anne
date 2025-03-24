@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/DALL·E\ 2025-01-29\ 15.22.35\ -\ A\ dark-themed\ background\ image\ for\ a\ joint\ business\ of\ tie-dye\ and\ catering.\ The\ image\ features\ a\ deep\,\ moody\ backdrop\ with\ subtle\ tie-dye\ patterns\ bl.webp);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+.mainhead{
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    border-bottom-right-radius: 20px;
+}
+.main
+.nav,ul{
+     list-style: none;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+}
+.nav,a{
+    text-decoration: none;
+}
+.coding{
+    color: goldenrod;
+}
+.main{
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    height: 500px;
+    justify-content: space-around;
+    display: flex;
+
+}
+.center{
+    color: rgb(181, 141, 39);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+.section{
+    padding: 40px;
+    text-align: center;
+    background-color: aliceblue;
+}
+ .image-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .image-container img {
+    height: 200px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+  }
+
+  .image-container img:hover {
+    transform: scale(1.5); /* Zoom in effect */
+    z-index: 10; /* Bring the hovered image to the front */
+    position: relative; /* Required for z-index to work */
+  }
+
+

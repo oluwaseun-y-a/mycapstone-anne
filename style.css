@@ -82,5 +82,8 @@ header img{
     z-index: 10; /* Bring the hovered image to the front */
     position: relative; /* Required for z-index to work */
   }
+  .button{
+    color: goldenrod;
+  }
 
 

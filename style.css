@@ -30,16 +30,6 @@ header img{
     height: 100px;
     border-bottom-right-radius: 20px;
 }
-.main
-.nav,ul{
-     list-style: none;
-        display: flex;
-        gap: 1rem;
-        align-items: center;
-}
-.nav,a{
-    text-decoration: none;
-}
 .coding{
     color: goldenrod;
 }
@@ -50,6 +40,9 @@ header img{
     height: 500px;
     justify-content: space-around;
     display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
 
 }
 .center{
@@ -57,7 +50,6 @@ header img{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 150px;
 }
 .section{
     padding: 40px;
@@ -82,8 +74,43 @@ header img{
     z-index: 10; /* Bring the hovered image to the front */
     position: relative; /* Required for z-index to work */
   }
-  .button{
-    color: goldenrod;
+  .hamburger{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 20px;
   }
-
-
+  .line{
+    height: 5px;
+    background-color: rgb(238, 229, 229);
+    border-radius: 5px;
+  }
+  .navi{
+    display: none;
+    position: relative;
+    left: 0;
+    width: 100%;
+    color: gold;
+    box-sizing: border-box;
+  }
+  .navi ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .navi ul li {
+    margin: 10px 0;
+  }
+ .navi ul li a{
+    color: gold;
+    text-decoration: none;
+    font-size: 18px;
+ }
+ .navi ul li a:hover {
+    text-decoration: underline;
+ }
+ .show-nav{
+    display: flex;
+ }

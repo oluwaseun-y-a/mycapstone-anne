@@ -1,7 +1,8 @@
-# tye&dye and catering business website 
+# Tye&Dye and catering business website 
 Overview
 Welcome to our joint business, where culinary delights meet vibrant textiles! We're excited to introduce our unique blend of catering services and handmade tie&dye products.
 
+# features
 Business Description
 Our business offers:
 

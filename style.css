@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-body{
+#container{
     background-image: url(./images/DALL·E\ 2025-01-29\ 15.22.35\ -\ A\ dark-themed\ background\ image\ for\ a\ joint\ business\ of\ tie-dye\ and\ catering.\ The\ image\ features\ a\ deep\,\ moody\ backdrop\ with\ subtle\ tie-dye\ patterns\ bl.webp);
     min-height: 500px;
     background-attachment: fixed;
@@ -54,7 +54,7 @@ header img{
 .section{
     padding: 40px;
     text-align: center;
-    background-color: aliceblue;
+    background-color:rgb(252, 230, 202);
 }
  .image-container {
     display: flex;
@@ -136,4 +136,94 @@ header img{
 #button:active {
   transform: translateY(0);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#topup{
+  background-image: url(./images/DALL·E\ 2025-01-29\ 15.22.35\ -\ A\ dark-themed\ background\ image\ for\ a\ joint\ business\ of\ tie-dye\ and\ catering.\ The\ image\ features\ a\ deep\,\ moody\ backdrop\ with\ subtle\ tie-dye\ patterns\ bl.webp);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+}
+.booking-form {
+  background: rgba(255, 255, 255, 0.9); 
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+.booking-form h2 {
+  color: #100909;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  border-color: #161212; 
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #030303; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #b93a38; 
+}
+
+.notification {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
 }

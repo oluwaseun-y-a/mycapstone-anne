@@ -21,5 +21,7 @@ Our mission is to provide exceptional food and beautiful, handmade tie&dye produ
 
 Contact Us
 Get in touch with us 
+# technologies
+html , css , javascript
 
 We look forward to serving you!

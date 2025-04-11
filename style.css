@@ -37,7 +37,7 @@ header img{
     font-size: 5vw;
     font-weight: bold;
     text-align: center;
-    height: 500px;
+    height: 600px;
     justify-content: space-around;
     display: flex;
     list-style: none;
@@ -121,22 +121,22 @@ header img{
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 12px 24px;
+  padding: 12px 12px;
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
 }
 #button:hover {
   background-color: #45a049;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+
 }
 #button:active {
   transform: translateY(0);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* for my booking page */
 #topup{
   background-image: url(./images/DALL·E\ 2025-01-29\ 15.22.35\ -\ A\ dark-themed\ background\ image\ for\ a\ joint\ business\ of\ tie-dye\ and\ catering.\ The\ image\ features\ a\ deep\,\ moody\ backdrop\ with\ subtle\ tie-dye\ patterns\ bl.webp);
   min-height: 500px;
@@ -229,7 +229,7 @@ header img{
 /* Media Queries for Mobile Devices */
 @media (max-width: 768px) {
     header img {
-        width: 60px; /* Further reduced for smaller screens */
+        width: 60px; 
         height: 60px;
     }
 
@@ -238,25 +238,25 @@ header img{
     }
 
     .image-container img {
-        height: 130px; /* Further reduced for smaller screens */
+        height: 130px; /*  reduced for smaller screens */
     }
 
     #button {
-        padding: 8px 16px; /* Further reduced padding */
-        font-size: 12px; /* Further reduced font size */
+        padding: 8px 16px; 
+        font-size: 12px; 
     }
 
     .booking-form {
-        padding: 15px; /* Further reduced padding */
-        max-width: 350px; /* Further reduced max-width */
+        padding: 15px;
+        max-width: 350px;
     }
 
     .booking-form h2 {
-        font-size: 18px; /* Further reduced font size */
+        font-size: 18px;
     }
 
     .submit-btn {
-        padding: 8px; /* Further reduced padding */
-        font-size: 12px; /* Further reduced font size */
+        padding: 8px; 
+        font-size: 12px; 
     }
 }

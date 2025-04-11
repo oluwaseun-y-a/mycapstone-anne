@@ -144,11 +144,9 @@ header img{
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 130vh;
+  height: 125vh;
 }
 .booking-form {
   background: rgba(255, 255, 255, 0.9); 
@@ -226,4 +224,39 @@ header img{
   background-color: #f8d7da;
   color: #721c24;
   border: 1px solid #f5c6cb;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    header img {
+        width: 60px; /* Further reduced for smaller screens */
+        height: 60px;
+    }
+
+    .main {
+        font-size: 8vw; /* Increased font size for readability */
+    }
+
+    .image-container img {
+        height: 130px; /* Further reduced for smaller screens */
+    }
+
+    #button {
+        padding: 8px 16px; /* Further reduced padding */
+        font-size: 12px; /* Further reduced font size */
+    }
+
+    .booking-form {
+        padding: 15px; /* Further reduced padding */
+        max-width: 350px; /* Further reduced max-width */
+    }
+
+    .booking-form h2 {
+        font-size: 18px; /* Further reduced font size */
+    }
+
+    .submit-btn {
+        padding: 8px; /* Further reduced padding */
+        font-size: 12px; /* Further reduced font size */
+    }
 }

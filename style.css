@@ -54,7 +54,10 @@ header img{
 .section{
     padding: 40px;
     text-align: center;
-    background-color:rgb(252, 230, 202);
+    background-color:rgb(250, 232, 209);
+}
+footer{
+  background-color:rgb(250, 232, 209);
 }
  .image-container {
     display: flex;
@@ -116,8 +119,8 @@ header img{
  }
  .yoo{
   text-decoration: none;
+  color: black;
  }
- 
 #button:hover {
   background-color: #45a049;
 

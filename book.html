@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tie & Dye Order</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body class="bookin">
+    <header class="second header">
+        <nav class="navbar">
+            <div class="logo">LANINA TIE - DYE</div>
+
+            <!--drop down menu-->
+            <div class="hamburger" id="hamburger">sth</div>
+            <div class="nav-links" id="navlinks">
+                <a  href="index.html">Home</a>
+                <a  href="#about.html">About us</a>
+                <a  href="gallery.html">Products</a>
+                <a  href="book.html">Bookings</a>
+            </div>
+        </nav>
+    <div class="book">
+        <div class="form-container">
+            <h2>Place Your Tie & Dye Order</h2>
+            <form id="orderForm">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" required />
+        
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+        
+              <label for="item">Item</label>
+              <select id="item" required>
+                <option value="">--Choose an item--</option>
+                <option value="T-shirt">T-shirt</option>
+                <option value="Scarf">Scarf</option>
+                <option value="Dress">Dress</option>
+                <option value="Fabric">Fabric</option>
+              </select>
+        
+              <label for="colors">Preferred Colors</label>
+              <input type="text" id="colors" placeholder="e.g., Red, Blue, Yellow" />
+        
+              <label for="quantity">Quantity</label>
+              <input type="number" id="quantity" min="1" required />
+        
+              <label for="notes">Additional Notes</label>
+              <textarea id="notes" rows="3" placeholder="Anything else?"></textarea>
+        
+              <button type="submit">Submit Order</button>
+            </form>
+            <div id="success-message">✅ Your order was successfully submitted!</div>
+          </div>
+        
+    </div>
+  <script src="script.js"></script>
 </body>
 </html>

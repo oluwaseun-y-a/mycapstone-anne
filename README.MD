@@ -1,16 +1,14 @@
-# a tie&dye and catering business page
+# catering business page
 
 # Description
-This business combines the art of tie&dye with delicious catering services. Our mission is to provide unique and creative products that bring joy and satisfaction to our customers.
+This business with delicious catering services. Our mission is to provide unique and creative products that bring joy and satisfaction to our customers.
 
 # Technologies
 - Html, CSS and javascript.
 
 # Features
-- Handmade tie&dye products (clothing, scarves, accessories)
 - Customized catering services for events and parties
 - Food delivery and takeout options
-- Workshops and classes on tie&dye techniques
 
 # Getting Started
 1. Browse our products and services on our website or social media channels.

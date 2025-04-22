@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # catering business page
 
 # Description
@@ -25,3 +26,6 @@ If you're interested in collaborating with us or learning more about our busines
 
 # License
 All content and designs are owned by Dye and Delights. Please do not reproduce or distribute without permission.
+=======
+
+>>>>>>> ce13c8d90da7929814c39696a00c0a159ca477c0

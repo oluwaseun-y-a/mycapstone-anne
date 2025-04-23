@@ -97,6 +97,10 @@ section{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.fot{
+  background-color: black;
+  color: whitesmoke;
+}
 .about{
   display: flex;
  justify-content: center;

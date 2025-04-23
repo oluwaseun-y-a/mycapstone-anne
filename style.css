@@ -146,6 +146,9 @@ section{
     border-radius: 30px; 
     margin-top: 20px;
 }
+.image-row:hover .overlay {
+  opacity: 1;
+}
 
 .texta{
   display: flex;
@@ -213,4 +216,7 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.pop :hover{
+  transform: scale(1.2);
 }
